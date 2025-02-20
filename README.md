@@ -1,2 +1,3 @@
-# Software-Testing
-Testing of website "Gymshark" and my project application "Shopping"
+# Software-Testing in Selenium Webdriver
+Testing of website "Gymshark"
+Testing my project application "E-Commerce Shopping Website"
