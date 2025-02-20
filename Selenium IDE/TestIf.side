@@ -1,0 +1,95 @@
+{
+  "id": "91e6f5f1-de39-4c99-8b81-cf5e4d90742b",
+  "version": "2.0",
+  "name": "TestIf",
+  "url": "https://omayo.blogspot.com",
+  "tests": [{
+    "id": "bf5083dd-908b-4f0b-80c5-2d18c9e550cc",
+    "name": "OmayoT1",
+    "commands": [{
+      "id": "b70831fd-d75e-48bc-bbd1-de6109a2b041",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5a2d3f4-a231-46f1-9424-6bdddbabdd3e",
+      "comment": "",
+      "command": "storeTitle",
+      "target": "",
+      "targets": [],
+      "value": "x"
+    }, {
+      "id": "e00838e1-cfc4-44e3-a36a-109461eafaea",
+      "comment": "",
+      "command": "if",
+      "target": "${x}===\"omayo (QAFox.com)\"",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8c9b06a-d4d9-408b-adc3-faf3a3355841",
+      "comment": "",
+      "command": "echo",
+      "target": "Correct title is displayed on the web page",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "caac5efc-0e94-41d8-861e-6edf1a1c027f",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8e95e5a9-9ea0-4adf-b778-becf7dec899a",
+    "name": "OmayoT2",
+    "commands": [{
+      "id": "aa9170ef-d982-4b19-8cb3-5e03d1db01e3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7634a06-beb7-423f-baf7-999dbd0b9569",
+      "comment": "",
+      "command": "storeTitle",
+      "target": "",
+      "targets": [],
+      "value": "x"
+    }, {
+      "id": "e7794eb7-42e1-4118-8407-419807f82f20",
+      "comment": "",
+      "command": "if",
+      "target": "${x}===\"Welcome\"",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a714ea1-65c2-4287-b83f-e35e336e89d4",
+      "comment": "",
+      "command": "echo",
+      "target": "\"Not Correct\"",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8aab05d8-c21d-4cdc-8444-50badb149b01",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e33c6fbd-c439-48b2-96f4-3d567da31ba5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["bf5083dd-908b-4f0b-80c5-2d18c9e550cc"]
+  }],
+  "urls": ["https://omayo.blogspot.com/"],
+  "plugins": []
+}

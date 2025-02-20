@@ -1,0 +1,151 @@
+{
+  "id": "051208db-fac1-4a28-b88c-45e35ef5d80a",
+  "version": "2.0",
+  "name": "Calorie Counter",
+  "url": "https://www.calculator.net",
+  "tests": [{
+    "id": "00978750-5929-48e7-b970-1c2142e559b0",
+    "name": "tc1",
+    "commands": [{
+      "id": "8aeb362f-a335-493b-a5a7-82700c3189f7",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.calculator.net/calorie-calculator.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e8da420-d207-422a-9ca2-ec0026ea6fa2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11419eaa-0b17-4bf8-a1ab-692b2c475f7b",
+      "comment": "",
+      "command": "store",
+      "target": "F",
+      "targets": [],
+      "value": "varGender"
+    }, {
+      "id": "06ee1ec1-9ade-4a7d-8203-f23e870a783d",
+      "comment": "",
+      "command": "if",
+      "target": "${varGender} === \"F\"",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00f4363e-f3c9-4612-a7bf-ceeb7728214a",
+      "comment": "",
+      "command": "click",
+      "target": "css=td > .cbcontainer:nth-child(2) > .rbmark",
+      "targets": [
+        ["css=td > .cbcontainer:nth-child(2) > .rbmark", "css:finder"],
+        ["xpath=//table[@id='calinputtable']/tbody/tr[2]/td[2]/label[2]/span", "xpath:idRelative"],
+        ["xpath=//label[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3196ee72-4977-415c-900c-b348088644c2",
+      "comment": "",
+      "command": "click",
+      "target": "id=cactivity",
+      "targets": [
+        ["id=cactivity", "id"],
+        ["name=cactivity", "name"],
+        ["css=#cactivity", "css:finder"],
+        ["xpath=//select[@id='cactivity']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[5]/form/table[4]/tbody/tr/td[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22affe27-1f4c-4758-9fa1-071e96e88a46",
+      "comment": "",
+      "command": "select",
+      "target": "id=cactivity",
+      "targets": [],
+      "value": "label=Very Active: intense exercise 6-7 times/week"
+    }, {
+      "id": "858247bf-642f-4b6b-b459-9c024763f084",
+      "comment": "",
+      "command": "click",
+      "target": "id=cactivity",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ebdf3a60-3c4d-4f6d-81fd-ab2182b6ece4",
+      "comment": "",
+      "command": "else",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e98d9327-b842-43a4-bc74-3328b2c8d922",
+      "comment": "",
+      "command": "click",
+      "target": "css=td > .cbcontainer:nth-child(1) > .rbmark",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d1064d5-6f98-4a68-afcc-7aae53802bc5",
+      "comment": "",
+      "command": "click",
+      "target": "id=cactivity",
+      "targets": [
+        ["id=cactivity", "id"],
+        ["name=cactivity", "name"],
+        ["css=#cactivity", "css:finder"],
+        ["xpath=//select[@id='cactivity']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[5]/form/table[4]/tbody/tr/td[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93a74c63-b522-433f-8015-705ad85721d6",
+      "comment": "",
+      "command": "select",
+      "target": "id=cactivity",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f02c7863-7e91-4f31-8435-cff7192d277c",
+      "comment": "",
+      "command": "click",
+      "target": "id=cactivity",
+      "targets": [
+        ["id=cactivity", "id"],
+        ["name=cactivity", "name"],
+        ["css=#cactivity", "css:finder"],
+        ["xpath=//select[@id='cactivity']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[5]/form/table[4]/tbody/tr/td[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b7fbfe0-6083-4421-8d43-69d12f3e5cd4",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4be73f26-8a1d-45f8-b3fc-92b32834ea52",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6b45ee39-e203-431f-8f5c-d0daab2cef3a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["00978750-5929-48e7-b970-1c2142e559b0"]
+  }],
+  "urls": ["https://www.calculator.net/"],
+  "plugins": []
+}

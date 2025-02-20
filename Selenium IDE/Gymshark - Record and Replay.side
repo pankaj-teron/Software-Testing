@@ -1,0 +1,264 @@
+{
+  "id": "c73f3df9-8cf4-4ad0-90b8-2384430bf302",
+  "version": "2.0",
+  "name": "Gymshark",
+  "url": "https://row.gymshark.com/pages/shop-men",
+  "tests": [{
+    "id": "65fa6150-9811-419e-a4c5-c3b8ce9c62f0",
+    "name": "Recording and Replaying",
+    "commands": [{
+      "id": "ea40255e-eedf-4073-94d3-43b3140dbd54",
+      "comment": "",
+      "command": "open",
+      "target": "https://row.gymshark.com/pages/shop-men",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c555f03f-8950-4084-a919-216447da5a5b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df737228-c3b7-4e97-be6c-062215095d95",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header_mobile-header-search__AfHPq > .search_search-trigger__U6dOW",
+      "targets": [
+        ["css=.header_mobile-header-search__AfHPq > .search_search-trigger__U6dOW", "css:finder"],
+        ["xpath=//div[@id='__next']/div/header/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//header/div[2]/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3a33f83-9d01-4dd3-b0d9-8a6fdb0045fa",
+      "comment": "",
+      "command": "type",
+      "target": "id=gymshark-header-search-search-enter",
+      "targets": [
+        ["id=gymshark-header-search-search-enter", "id"],
+        ["name=gymshark-header-search-search-enter", "name"],
+        ["css=#gymshark-header-search-search-enter", "css:finder"],
+        ["xpath=//input[@id='gymshark-header-search-search-enter']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "tshirt"
+    }, {
+      "id": "4d06c3a7-7a02-495a-b661-58835a5e153f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=gymshark-header-search-search-enter",
+      "targets": [
+        ["id=gymshark-header-search-search-enter", "id"],
+        ["name=gymshark-header-search-search-enter", "name"],
+        ["css=#gymshark-header-search-search-enter", "css:finder"],
+        ["xpath=//input[@id='gymshark-header-search-search-enter']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e56ac6a5-e337-4b2b-80d6-1cda550e1b6f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.header_mobile-header-search__AfHPq > .search_search-trigger__U6dOW",
+      "targets": [
+        ["css=.header_mobile-header-search__AfHPq > .search_search-trigger__U6dOW", "css:finder"],
+        ["xpath=//div[@id='__next']/div/header/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//header/div[2]/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'tshirt')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2050988f-4868-4959-9b54-f69f2ec8ffb9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.header_mobile-header-search__AfHPq > .search_search-trigger__U6dOW",
+      "targets": [
+        ["css=.header_mobile-header-search__AfHPq > .search_search-trigger__U6dOW", "css:finder"],
+        ["xpath=//div[@id='__next']/div/header/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//header/div[2]/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'tshirt')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ba81bd6-9db9-4220-931a-2d39d882335e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.product-card_product-card__CIqIf:nth-child(2) .image_image-wrap-second__5psYi",
+      "targets": [
+        ["css=.product-card_product-card__CIqIf:nth-child(2) .image_image-wrap-second__5psYi", "css:finder"],
+        ["xpath=(//img[@alt='Arrival Regular Fit T-Shirt'])[2]", "xpath:img"],
+        ["xpath=//main[@id='MainContent']/div[2]/section/div/article[2]/div/div/div/a/div/img[2]", "xpath:idRelative"],
+        ["xpath=//article[2]/div/div/div/a/div/img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a21eae99-b209-40ab-a340-1593074f3ee0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.image_image-wrap-second--active__DotsT",
+      "targets": [
+        ["css=.image_image-wrap-second--active__DotsT", "css:finder"],
+        ["xpath=(//img[@alt='Arrival Regular Fit T-Shirt'])[2]", "xpath:img"],
+        ["xpath=//main[@id='MainContent']/div[2]/section/div/article[2]/div/div/div/a/div/img[2]", "xpath:idRelative"],
+        ["xpath=//article[2]/div/div/div/a/div/img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f4e99d9-d848-4de7-92a7-6bbcf991ee11",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.product-card_product-card__CIqIf:nth-child(1) .image_image-wrap-second__5psYi",
+      "targets": [
+        ["css=.product-card_product-card__CIqIf:nth-child(1) .image_image-wrap-second__5psYi", "css:finder"],
+        ["xpath=(//img[@alt='Power T-Shirt'])[2]", "xpath:img"],
+        ["xpath=//main[@id='MainContent']/div[2]/section/div/article/div/div/div/a/div/img[2]", "xpath:idRelative"],
+        ["xpath=//div/img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb7f6133-0ea3-4872-9de5-0f1618f0566c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.image_image-wrap-second--active__DotsT",
+      "targets": [
+        ["css=.image_image-wrap-second--active__DotsT", "css:finder"],
+        ["xpath=(//img[@alt='Power T-Shirt'])[2]", "xpath:img"],
+        ["xpath=//main[@id='MainContent']/div[2]/section/div/article/div/div/div/a/div/img[2]", "xpath:idRelative"],
+        ["xpath=//div/img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c077db6-5957-467b-9707-6cf1c69fed11",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.image-gallery_gallery--item__OW3UF:nth-child(2) > img",
+      "targets": [
+        ["css=.image-gallery_gallery--item__OW3UF:nth-child(2) > img", "css:finder"],
+        ["xpath=//img[@alt='Power T-Shirt - View 2']", "xpath:img"],
+        ["xpath=//main[@id='MainContent']/div/div/div/div/div/button[2]/img", "xpath:idRelative"],
+        ["xpath=//button[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b3b621d-d89d-45b8-82b7-4335b97802f3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.image-gallery_gallery--item__OW3UF:nth-child(2) > img",
+      "targets": [
+        ["css=.image-gallery_gallery--item__OW3UF:nth-child(2) > img", "css:finder"],
+        ["xpath=//img[@alt='Power T-Shirt - View 2']", "xpath:img"],
+        ["xpath=//main[@id='MainContent']/div/div/div/div/div/button[2]/img", "xpath:idRelative"],
+        ["xpath=//button[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5864ea41-6067-4597-9213-2283117ccf91",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-to-cart_section__GygMh:nth-child(5) .size_size__saJiQ:nth-child(5)",
+      "targets": [
+        ["css=.add-to-cart_section__GygMh:nth-child(5) .size_size__saJiQ:nth-child(5)", "css:finder"],
+        ["xpath=//main[@id='MainContent']/div/div[2]/section[3]/fieldset/label[2]", "xpath:idRelative"],
+        ["xpath=//label[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69b0221d-7a53-41ce-80de-0d6ad6992323",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-to-cart_button-container__aKAUo:nth-child(6) .button_success-overlay__aqLb7",
+      "targets": [
+        ["css=.add-to-cart_button-container__aKAUo:nth-child(6) .button_success-overlay__aqLb7", "css:finder"],
+        ["xpath=//main[@id='MainContent']/div/div[2]/div[3]/button/span[2]", "xpath:idRelative"],
+        ["xpath=//main/div/div[2]/div[3]/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b5957f6-29bf-479b-9819-eafdfb31aa3a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=div > .product-card_product-card__CIqIf:nth-child(1) .product-card_product-title-link__jDI6f",
+      "targets": [
+        ["css=div > .product-card_product-card__CIqIf:nth-child(1) .product-card_product-title-link__jDI6f", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://row.gymshark.com/products/gymshark-power-washed-crew-black-aw24')])[2]", "xpath:href"],
+        ["xpath=//div/article/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Power Washed Crew')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "999cb4d6-a6e6-4f84-b03c-79006ddc4543",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=div > .product-card_product-card__CIqIf:nth-child(1) .product-card_product-title-link__jDI6f",
+      "targets": [
+        ["css=div > .product-card_product-card__CIqIf:nth-child(1) .product-card_product-title-link__jDI6f", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://row.gymshark.com/products/gymshark-power-washed-crew-black-aw24')])[2]", "xpath:href"],
+        ["xpath=//div/article/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Power Washed Crew')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2014f99c-9711-48b4-8e71-4d107b33a016",
+      "comment": "",
+      "command": "click",
+      "target": "id=minicart-discount-code",
+      "targets": [
+        ["id=minicart-discount-code", "id"],
+        ["name=minicart-discount-code", "name"],
+        ["css=#minicart-discount-code", "css:finder"],
+        ["xpath=//input[@id='minicart-discount-code']", "xpath:attributes"],
+        ["xpath=//div/fieldset/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "687591bf-e445-43e1-b44c-df18fd235b64",
+      "comment": "",
+      "command": "type",
+      "target": "id=minicart-discount-code",
+      "targets": [
+        ["id=minicart-discount-code", "id"],
+        ["name=minicart-discount-code", "name"],
+        ["css=#minicart-discount-code", "css:finder"],
+        ["xpath=//input[@id='minicart-discount-code']", "xpath:attributes"],
+        ["xpath=//div/fieldset/input", "xpath:position"]
+      ],
+      "value": "Promo"
+    }, {
+      "id": "da3649b9-6f4e-4fd0-9c07-9b968a3e4be5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button_button--position-left__pspoh:nth-child(1) > .button_loading-overlay__uvQ6f",
+      "targets": [
+        ["css=.button_button--position-left__pspoh:nth-child(1) > .button_loading-overlay__uvQ6f", "css:finder"],
+        ["xpath=//a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d57a0b41-4a2c-4e97-b63f-29d9303ad53f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,333.3333435058594)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a12d75b-4df9-44b3-9017-fb9fac4c4392",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b8030e80-e215-4471-99d8-a99f559317b2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["65fa6150-9811-419e-a4c5-c3b8ce9c62f0"]
+  }],
+  "urls": ["https://row.gymshark.com/", "https://row.gymshark.com/pages/shop-men"],
+  "plugins": []
+}

@@ -1,0 +1,63 @@
+{
+  "id": "7e442cf2-421b-4156-8327-1e2f52653cd8",
+  "version": "2.0",
+  "name": "Conditional Statement",
+  "url": "https://www.calculator.net/calorie-calculator.html",
+  "tests": [{
+    "id": "ea3b4001-4ddf-4434-8600-b0af13a76c89",
+    "name": "Untitled",
+    "commands": [{
+      "id": "40fd2ad0-c06d-437e-8387-21243b2cae81",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.calculator.net/calorie-calculator.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "186628af-5bfa-4bd1-b3ac-45a26fa596e5",
+      "comment": "",
+      "command": "store",
+      "target": "F",
+      "targets": [],
+      "value": "varGender"
+    }, {
+      "id": "235d8e67-3652-4716-9a9d-9c73fb30197c",
+      "comment": "",
+      "command": "if",
+      "target": "${varGender}===\"F\"",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce7d3af2-1eb9-4819-ad65-b6873bf50249",
+      "comment": "",
+      "command": "click",
+      "target": "css=td>.cbcontainer.nth-child(2)>.rbmark",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "054dcd4e-63c9-4f07-bf87-8b8e1114bf77",
+      "comment": "",
+      "command": "click",
+      "target": "id=cactivity",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70e9503b-a4e5-401f-b533-1f67bcfe1036",
+      "comment": "",
+      "command": "click",
+      "target": "id=cactivity",
+      "targets": [],
+      "value": "label=Very Active: intense exercise 6-7 times/week"
+    }]
+  }],
+  "suites": [{
+    "id": "f6909334-99c4-4142-b115-38a8da24488f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ea3b4001-4ddf-4434-8600-b0af13a76c89"]
+  }],
+  "urls": ["https://www.calculator.net/calorie-calculator.html"],
+  "plugins": []
+}

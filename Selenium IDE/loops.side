@@ -1,0 +1,63 @@
+{
+  "id": "f618ceb8-a5ea-4ad6-aaac-05e761e3c6e2",
+  "version": "2.0",
+  "name": "loops",
+  "url": "https://www.calculator.net/scientific-calculator.html",
+  "tests": [{
+    "id": "3ca4a417-39af-41f4-8d5e-5f16da6dd99e",
+    "name": "loops",
+    "commands": [{
+      "id": "7848f807-2ec7-4f72-9e89-be2fbf777c4a",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 0",
+      "targets": [],
+      "value": "counter"
+    }, {
+      "id": "07cd4363-f49e-4b00-8a99-02a2b0c2807e",
+      "comment": "",
+      "command": "do",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9842af6-7f3d-4398-bcf7-80d7b9fb30a0",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${counter} + 10",
+      "targets": [],
+      "value": "counter"
+    }, {
+      "id": "a90c6681-eadf-4123-ab51-59e98edc5330",
+      "comment": "",
+      "command": "echo",
+      "target": "$ {counter}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f57f5516-fcff-4378-afdb-6a01fa44ba0e",
+      "comment": "",
+      "command": "repeatIf",
+      "target": "${counter} <50",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0618b0d-39cb-4b22-9e78-cf53a8a671b7",
+      "comment": "",
+      "command": "echo",
+      "target": "counter value is : ${counter}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9c8119dc-1aa1-4032-b63e-d52cc46853f0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3ca4a417-39af-41f4-8d5e-5f16da6dd99e"]
+  }],
+  "urls": ["https://www.calculator.net/scientific-calculator.html"],
+  "plugins": []
+}
