@@ -1,0 +1,56 @@
+{
+  "id": "9f7830d3-8549-4720-b94d-cb996a1d7d99",
+  "version": "2.0",
+  "name": "as",
+  "url": "",
+  "tests": [{
+    "id": "efba897a-c909-4970-b49d-f9bcb75d1661",
+    "name": "Untitled",
+    "commands": [{
+      "id": "91f359f4-c98b-47f2-8bf0-7ed96c501501",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1",
+      "targets": [],
+      "value": "counter"
+    }, {
+      "id": "acf37287-f185-492a-b8d9-5ab14d2f4691",
+      "comment": "",
+      "command": "while",
+      "target": "${counter}<5",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c4e9489-deed-4c1b-94ce-bc3c1fb70c7c",
+      "comment": "",
+      "command": "${counter}<5",
+      "target": "return ${counter}+1",
+      "targets": [],
+      "value": "counter"
+    }, {
+      "id": "3da31b0d-d83c-4c73-9ad1-21b0c56917da",
+      "comment": "",
+      "command": "echo",
+      "target": "counter  value  is: ${counter}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da2be11e-fe82-4ea6-bd33-4b3b25c62639",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a67c6a57-60d0-4439-8fee-be3335a913a7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["efba897a-c909-4970-b49d-f9bcb75d1661"]
+  }],
+  "urls": [],
+  "plugins": []
+}
